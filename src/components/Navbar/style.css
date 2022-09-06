@@ -1,0 +1,106 @@
+
+.customNav{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.customNav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 25px 40px;
+}
+.customNav ul li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.customNav ul li:last-child{
+    justify-content: flex-end;
+}
+.customNav ul li a{
+    color: var(--white);
+    font-size: 14px;
+    font-family: var(--mulish);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600!important;
+    height: 35px;
+}
+.customNav ul li span.first{
+    color: var(--white);
+    font-size: 14px;
+    font-family: var(--mulish);
+    font-weight: 500!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--accent-blue);
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.customNav ul li span.first:hover{
+    filter: brightness(80%);
+}
+.customNav ul li span.first svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.customNav ul li span.second{
+    border-radius: 40px;
+    width: auto;
+    height: 35px;
+    background-color: var(--accent-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 3.5px;
+    transition: 0.3s all ease-in-out;
+}
+.customNav ul li span.second:hover{
+    filter: brightness(80%);
+}
+.customNav ul li span.second i{
+    width: 30px;
+    height: 30px;
+    background-color: var(--accent-blue);
+    color: var(--white);
+    font-style: normal;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.customNav ul li span.second i svg{
+    margin-left: -2px;
+    margin-top: 1px;
+}
+.customNav ul li span.second i.active{
+    background-color: var(--white);
+    color: var(--accent-blue);
+}
+.customNav ul li span.second i.move{
+    margin-right: -30px;
+    z-index: 10;
+}
+
+@media (max-width: 767.5px){
+    .customNav ul{
+        padding: 25px 20px;
+    }
+}
+@media (max-width: 425.5px){
+    .customNav ul{
+        padding: 15px;
+    }
+}

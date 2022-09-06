@@ -1,0 +1,62 @@
+
+.landingPageSection{
+    border: none;
+}
+
+.landingPageSection .landingPageContents{
+    padding: 100px 50px;
+}
+.landingPageSection .landingPageContents .headerImgDiv{
+    text-align: center;
+}
+.landingPageSection .landingPageContents .headerImgDiv img{
+    width: 180px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+}
+.landingPageSection .landingPageContents .landingPageCaptionDiv{
+    text-align: center;
+    padding: 30px 0px;
+}
+.landingPageSection .landingPageContents .landingPageCaptionDiv h1{
+    color: var(--white);
+    margin: 0px;
+    font-size: 23px;
+    padding: 0px;
+    font-family: var(--mulish);
+    font-weight: 700!important;
+}
+.landingPageSection .landingPageContents .landingPageCaptionDiv p{
+    color: var(--grey);
+    margin: 0px;
+    padding: 0px 25px;
+    margin-top: 10px;
+    font-family: var(--mulish);
+    font-weight: 600!important;
+    font-size: 14px;
+}
+.landingPageSection .landingPageContents .buttonDiv{
+    padding: 15px 60px;
+    text-align: center;
+}
+.landingPageSection .landingPageContents .buttonDiv a{
+    background-color: var(--accent-color);
+    color: var(--white);
+    outline: none!important;
+    box-shadow: none!important;
+    border: 1px solid var(--accent-color);
+    padding: 16px 15px;
+    padding-top: 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: 0.3s all ease-in-out;
+    display: block;
+    width: 100%;
+    font-family: var(--mulish);
+    font-weight: 400!important;
+}
+.landingPageSection .landingPageContents .buttonDiv a:hover{
+    border: 1px solid var(--accent-hover);
+    background-color: var(--accent-hover);
+}

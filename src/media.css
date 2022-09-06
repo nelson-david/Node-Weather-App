@@ -1,0 +1,110 @@
+@media (max-width: 1240.5px){
+    .landingPageSection .landingPageContents{
+        padding: 70px 40px;
+    }
+    .landingPageSection .landingPageContents .headerImgDiv img{
+        width: 170px;
+        height: 190px;
+    }
+    .landingPageSection .landingPageContents .buttonDiv{
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 1100.5px){
+    .landingPageSection .landingPageContents{
+        padding: 70px 20px;
+    }
+}
+
+@media (max-width: 800.5px){
+    .landingPageSection .landingPageContents{
+        padding: 70px 30px;
+    }
+    .landingPageSection .landingPageContents .buttonDiv{
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 767.5px){
+    .homeSection{
+        padding: 30px 50px;
+    }
+    .homeSection .weatherPrediction{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 650.5px){
+    .landingPageSection .landingPageContents{
+        padding: 50px 10px;
+    }
+}
+
+@media (max-width: 575.5px){
+    .landingPageSection .landingPageContents{
+        padding: 50px 100px;
+    }
+    .homeSection{
+        padding: 10px 25px;
+    }
+    .homeSection p.title{
+        font-size: 17px;
+        margin-bottom: -10px;
+    }
+    .homeSection .weatherDetails h3{
+        font-size: 18px;
+    }
+    .homeSection .weatherDetails h2{
+        font-size: 75px;
+        font-weight: 900!important;
+    }
+}
+
+@media (max-width: 490.5px){
+    .landingPageSection .landingPageContents{
+        padding: 50px 70px;
+    }
+}
+
+@media (max-width: 425.5px){
+    .landingPageSection .landingPageContents{
+        padding: 40px 50px;
+    }
+    .homeSection p.title{
+        margin-bottom: 10px;
+    }
+    .homeSection .imgDiv{
+        margin-bottom: -15px;
+    }
+    .homeSection .imgDiv img{
+        width: 170px;
+        height: 110px;
+    }
+    .homeSection .weatherPrediction ul{
+        padding: 15px 10px;
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+    }
+}
+
+@media (max-width: 380.5px){
+    .landingPageSection .landingPageContents{
+        padding: 40px 15px;
+    }
+    .landingPageSection .landingPageContents .landingPageCaptionDiv{
+        padding: 30px 25px;
+    }
+    .homeSection .weatherPrediction ul{
+        padding: 15px 0px;
+    }
+}
+
+@media (max-width: 366.5px){
+    .landingPageSection .landingPageContents{
+        padding: 40px 10px;
+    }
+    .landingPageSection .landingPageContents .landingPageCaptionDiv{
+        padding: 30px 17px;
+    }
+}

@@ -1,0 +1,173 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root{
+    --accent-color: #0095FF;
+    --accent-hover: #005999;
+    --accent-blue: #222433;
+    --white: #ffffff;
+    --black: #000000;
+    --bg-color: #151638;
+    --grey: #BABABA;
+    --lato: 'Lato', sans-serif;
+    --mulish: 'Mulish', sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-color);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden!important;
+    background-image: url("https://res.cloudinary.com/ruthless-labs/image/upload/v1662443079/hurle-weather/41_govyki.png");
+}
+html{
+    scroll-behavior: smooth;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--lato);
+    overflow-x: hidden!important;
+}
+a{
+    text-decoration: none!important;
+    -moz-touch-callout: none!important;
+    -webkit-touch-callout: none!important;
+}
+img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    -moz-touch-callout: none!important;
+    -webkit-touch-callout: none!important;
+}
+.spin svg{
+    -webkit-animation: spin-animation 0.7s infinite linear;
+    animation: spin-animation 0.7s infinite linear;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #000011;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #4f586b;
+    border-radius: 0px;
+    background-clip: padding-box;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: background-color 99999s ease-out!important;
+    transition: background-color 99999s ease-out!important;
+    -webkit-text-fill-color: var(--white)!important;
+    -webkit-font-family: var(--lato)!important;
+    font-family: var(--lato)!important;
+}
+.Toastify .Toastify__toast-body{
+    font-family: var(--lato)!important;
+    font-weight: 400!important;
+    font-size: 13px;
+}
+.Toastify__close-button{
+    outline: none!important;
+    border: none!important;
+    box-shadow: none!important;
+    -webkit-user-appearance: none!important;
+    -user-appearance: none!important;
+}
+
+.App{
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto!important;
+    overflow-x: hidden!important;
+    scroll-behavior: smooth;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Home Page Styling */
+.homeSection{
+    padding: 30px 100px;
+    font-family: var(--lato);
+}
+.homeSection p.title{
+    color: var(--white);
+    font-weight: 700!important;
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: -30px;
+}
+.homeSection .imgDiv{
+    text-align: center;
+    padding: 10px;
+}
+.homeSection .imgDiv img{
+    width: 200px;
+    height: 140px;
+}
+.homeSection .weatherDetails{
+    padding: 10px;
+    text-align: center;
+}
+.homeSection .weatherDetails h3{
+    color: var(--white);
+    font-size: 19px;
+    font-weight: 800!important;
+    margin: 0px;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+}
+.homeSection .weatherDetails h2{
+    color: var(--white);
+    font-size: 80px;
+    font-family: var(--lato);
+    font-weight: 900!important;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.homeSection .weatherPrediction{
+    padding: 0px 50px;
+}
+.homeSection .weatherPrediction ul{
+    list-style: none;
+    padding: 15px 50px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(6,6,16, 0.9);
+}
+
+/* Animation CSS */
+@-webkit-keyframes spin-animation {
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    0% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin-animation {
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    0% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
